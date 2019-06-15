@@ -21,12 +21,12 @@ zip -r repository.zip ~/.m2/repository
 az storage container create \
 --account-name ${storage_account} \
 --account-key ${storage_key} \
---name ${repository}
+--name ${storage_container}
 
 az storage blob upload \
 --account-name ${storage_account} \
 --account-key ${storage_key} \
---container-name ${repository} \
+--container-name ${storage_container} \
 --name repository \
 --file repository.zip
 
