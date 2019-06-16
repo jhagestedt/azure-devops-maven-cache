@@ -20,6 +20,11 @@
     "maven",
     "cache"
   ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
   "branding": {
     "color": "#fafafa",
     "theme": "dark"

@@ -16,7 +16,10 @@ then
   exit 3
 fi
 
-zip -r repository.zip ~/.m2/repository
+mkdir -p ~/.m2
+cd ~/.m2
+
+zip -r repository.zip repository
 
 az storage container create \
 --account-name ${storage_account} \

@@ -16,6 +16,9 @@ then
   exit 3
 fi
 
+mkdir -p ~/.m2
+cd ~/.m2
+
 az storage container create \
 --account-name ${storage_account} \
 --account-key ${storage_key} \
@@ -28,6 +31,5 @@ az storage blob download \
 --name repository \
 --file repository.zip
 
-mkdir -p ~/.m2
-unzip repository.zip -d ~/.m2
+unzip repository.zip
 rm -rf repository.zip
