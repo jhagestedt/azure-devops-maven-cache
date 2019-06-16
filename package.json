@@ -1,0 +1,21 @@
+{
+  "name": "azure-devops-maven-cache",
+  "version": "1.0.0",
+  "description": "Azure DevOps task for upload and download local m2 repository to and from an Azure storage for caching support.",
+  "author": "Julien Hagestedt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhagestedt/azure-devops-maven-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhagestedt/azure-devops-maven-cache/issues"
+  },
+  "homepage": "https://github.com/jhagestedt/azure-devops-maven-cache#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "@types/q": "^1.5.2"
+  }
+}
