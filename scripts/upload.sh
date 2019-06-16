@@ -16,8 +16,8 @@ then
   exit 3
 fi
 
-mkdir -p ~/.m2
-cd ~/.m2
+cd ${HOME}
+mkdir -p .m2 && cd .m2
 
 zip -r repository.zip repository
 
