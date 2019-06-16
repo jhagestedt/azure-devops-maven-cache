@@ -9,7 +9,7 @@
   "version": {
     "Major": 0,
     "Minor": 1,
-    "Patch": 0
+    "Patch": 2
   },
   "visibility": [
     "Build",
@@ -18,25 +18,25 @@
   "instanceNameFormat": "Maven Cache",
   "inputs": [
     {
-      "name": "storage_account",
+      "name": "storageAccount",
       "type": "string",
-      "label": "Azure storage account",
+      "label": "Storage account name",
       "defaultValue": "",
       "required": true,
       "helpMarkDown": "An Azure storage account name."
     },
     {
-      "name": "storage_key",
+      "name": "storageKey",
       "type": "string",
-      "label": "Azure storage key",
+      "label": "Storage account key",
       "defaultValue": "",
       "required": true,
       "helpMarkDown": "An Azure storage account key."
     },
     {
-      "name": "storage_container",
+      "name": "storageContainer",
       "type": "string",
-      "label": "Azure storage container",
+      "label": "Storage container name",
       "defaultValue": "",
       "required": true,
       "helpMarkDown": "An Azure storage container name."

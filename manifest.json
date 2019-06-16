@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "maven-cache",
   "name": "Maven Cache",
-  "version": "0.0.3",
+  "version": "0.1.2",
   "publisher": "jhagestedt",
   "targets": [
     {
@@ -28,7 +28,7 @@
     }
   },
   "branding": {
-    "color": "#fafafa",
+    "color": "#000000",
     "theme": "dark"
   },
   "icons": {
@@ -40,7 +40,22 @@
   },
   "files": [
     {
-      "path": "src"
+      "path": "task/node_modules"
+    },
+    {
+      "path": "task/icon.png"
+    },
+    {
+      "path": "task/icon.svg"
+    },
+    {
+      "path": "task/download.js"
+    },
+    {
+      "path": "task/upload.js"
+    },
+    {
+      "path": "task/task.json"
     },
     {
       "path": "images",
@@ -55,7 +70,7 @@
         "ms.vss-distributed-task.tasks"
       ],
       "properties": {
-        "name": "src"
+        "name": "task"
       }
     }
   ]

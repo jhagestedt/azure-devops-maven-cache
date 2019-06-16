@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd src
+cd task
 npm install --save
 tsc
 cd -
