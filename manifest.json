@@ -2,8 +2,7 @@
   "manifestVersion": 1,
   "id": "maven-cache",
   "name": "Maven Cache",
-  "version": "0.0.1",
-  "public": true,
+  "version": "0.0.3",
   "publisher": "jhagestedt",
   "targets": [
     {
@@ -23,6 +22,9 @@
   "content": {
     "details": {
       "path": "README.md"
+    },
+    "license": {
+      "path": "LICENSE.txt"
     }
   },
   "branding": {
