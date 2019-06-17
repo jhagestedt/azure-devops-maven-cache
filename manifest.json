@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "maven-cache",
   "name": "Maven Cache",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "jhagestedt",
   "public": true,
   "targets": [
@@ -28,6 +28,10 @@
       "path": "LICENSE.txt"
     }
   },
+  "screenshots": [
+    { "path": "images/screenshot-1.png" },
+    { "path": "images/screenshot-2.png" }
+  ],
   "branding": {
     "color": "#000000",
     "theme": "dark"
