@@ -18,6 +18,10 @@ function run() {
             tl.cd(tl.getVariable('HOME'));
             tl.mkdirP('.m2');
             tl.cd('.m2');
+            execSecure(tl.execSync('az', 'storage container create'
+                + ' --account-name ' + storageAccount
+                + ' --account-key ' + storageKey
+                + ' --name ' + storageContainer), 'Failed to create storage container.');
             execSecure(tl.execSync('az', 'storage blob download'
                 + ' --account-name ' + storageAccount
                 + ' --account-key ' + storageKey

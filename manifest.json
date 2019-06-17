@@ -2,8 +2,9 @@
   "manifestVersion": 1,
   "id": "maven-cache",
   "name": "Maven Cache",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "jhagestedt",
+  "public": true,
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services.Cloud"
