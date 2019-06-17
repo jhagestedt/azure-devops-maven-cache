@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "maven-cache",
   "name": "Maven Cache",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "jhagestedt",
   "public": true,
   "targets": [

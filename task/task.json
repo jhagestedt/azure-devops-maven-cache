@@ -9,7 +9,7 @@
   "version": {
     "Major": 0,
     "Minor": 1,
-    "Patch": 6
+    "Patch": 7
   },
   "visibility": [
     "Build",
@@ -18,28 +18,28 @@
   "instanceNameFormat": "Maven Cache",
   "inputs": [
     {
-      "name": "storageAccount",
+      "name": "storageName",
       "type": "string",
-      "label": "Storage account name",
+      "label": "Storage name",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "An Azure storage account name."
+      "helpMarkDown": "Name of your Azure Storage Account."
     },
     {
       "name": "storageKey",
       "type": "string",
-      "label": "Storage account key",
+      "label": "Storage key",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "An Azure storage account key."
+      "helpMarkDown": "Access key of your Azure Storage Account."
     },
     {
       "name": "storageContainer",
       "type": "string",
-      "label": "Storage container name",
+      "label": "Storage container",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "An Azure storage container name."
+      "helpMarkDown": "Name of the container inside your Azure Storage Account. If container is not present it will be created."
     }
   ],
   "prejobexecution": {

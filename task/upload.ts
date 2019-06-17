@@ -3,7 +3,7 @@ import { IExecSyncResult } from 'azure-pipelines-task-lib/toolrunner';
 
 async function run() {
   try {
-    const storageAccount: string = tl.getInput('storageAccount', true);
+    const storageName: string = tl.getInput('storageName', true);
     const storageKey: string = tl.getInput('storageKey', true);
     const storageContainer: string = tl.getInput('storageContainer', true);
     tl.cd(tl.getVariable('HOME'));
@@ -12,12 +12,12 @@ async function run() {
     execSecure(tl.execSync('zip', '-r repository.zip repository'),
       'Failed to zip repository.');
     execSecure(tl.execSync('az', 'storage container create'
-      + ' --account-name ' + storageAccount
+      + ' --account-name ' + storageName
       + ' --account-key ' + storageKey
       + ' --name ' + storageContainer),
       'Failed to create storage container.');
     execSecure(tl.execSync('az', 'storage blob upload'
-      + ' --account-name ' + storageAccount
+      + ' --account-name ' + storageName
       + ' --account-key ' + storageKey
       + ' --container-name ' + storageContainer
       + ' --name repository'

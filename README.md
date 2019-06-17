@@ -16,11 +16,14 @@ Configure it as needed
 ![Maven Cache parameters](images/screenshot-2.png)
 
 Parameters:
-- **Storage account name**: Type the name of your Azure storage account where you want to save the Maven cache.
-- **Storage account key**: Type the access key of your Azure storage account.
-- **Storage container name**: Type the container name that should be used inside your storage account. It will be created if it does not exist.
+- **Storage name**: Type the name of your Azure storage account where you want to save the Maven cache.
+- **Storage key**: Type the access key of your Azure storage account.
+- **Storage container**: Type the container name that should be used inside your storage account. It will be created if it does not exist.
 
 # Release notes
+
+**0.1.7**
+- More clear variables
 
 **0.1.6**
 - Store description
