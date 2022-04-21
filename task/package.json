@@ -1,6 +1,6 @@
 {
   "name": "azure-devops-maven-cache",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Azure DevOps task for upload and download local m2 repository to and from an Azure storage for caching support.",
   "author": "Julien Hagestedt",
   "license": "MIT",

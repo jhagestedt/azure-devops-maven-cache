@@ -21,7 +21,8 @@ async function run() {
       + ' --account-key ' + storageKey
       + ' --container-name ' + storageContainer
       + ' --name repository'
-      + ' --file repository.zip'),
+      + ' --file repository.zip'
+      + ' --overwrite'),
       'Failed to upload zip repository to storage account.');
     execSecure(tl.execSync('rm', '-rf repository.zip'),
       'Failed to remove zip repository.');
