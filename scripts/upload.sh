@@ -32,5 +32,6 @@ az storage blob upload \
 --container-name ${storage_container} \
 --name repository \
 --file repository.zip
+--overwrite
 
 rm -rf repository.zip
